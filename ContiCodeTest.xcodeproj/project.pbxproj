@@ -15,6 +15,11 @@
 		259E6A721DBCB53B009FE4F7 /* ContinentalFilenameParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259E6A711DBCB53B009FE4F7 /* ContinentalFilenameParser.swift */; };
 		259E6A7A1DBCD56F009FE4F7 /* ContiCodeTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259E6A791DBCD56F009FE4F7 /* ContiCodeTestTests.swift */; };
 		259E6A811DBCD6CD009FE4F7 /* ContinentalFilenameParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259E6A711DBCB53B009FE4F7 /* ContinentalFilenameParser.swift */; };
+		259E6A891DBCDE77009FE4F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259E6A881DBCDE77009FE4F7 /* AppDelegate.swift */; };
+		259E6A8B1DBCDE77009FE4F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259E6A8A1DBCDE77009FE4F7 /* ViewController.swift */; };
+		259E6A8D1DBCDE77009FE4F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 259E6A8C1DBCDE77009FE4F7 /* Assets.xcassets */; };
+		259E6A901DBCDE77009FE4F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 259E6A8E1DBCDE77009FE4F7 /* Main.storyboard */; };
+		259E6A951DBCE2CC009FE4F7 /* ContinentalFilenameParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259E6A711DBCB53B009FE4F7 /* ContinentalFilenameParser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +44,12 @@
 		259E6A771DBCD56F009FE4F7 /* ContiCodeTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContiCodeTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		259E6A791DBCD56F009FE4F7 /* ContiCodeTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContiCodeTestTests.swift; sourceTree = "<group>"; };
 		259E6A7B1DBCD56F009FE4F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		259E6A861DBCDE77009FE4F7 /* ContinentalMacTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContinentalMacTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		259E6A881DBCDE77009FE4F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		259E6A8A1DBCDE77009FE4F7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		259E6A8C1DBCDE77009FE4F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		259E6A8F1DBCDE77009FE4F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		259E6A911DBCDE77009FE4F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +67,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		259E6A831DBCDE77009FE4F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -64,6 +82,7 @@
 			children = (
 				259E6A5E1DBCB140009FE4F7 /* ContiCodeTest */,
 				259E6A781DBCD56F009FE4F7 /* ContiCodeTestTests */,
+				259E6A871DBCDE77009FE4F7 /* ContinentalMacTest */,
 				259E6A5D1DBCB140009FE4F7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -73,6 +92,7 @@
 			children = (
 				259E6A5C1DBCB140009FE4F7 /* ContiCodeTest.app */,
 				259E6A771DBCD56F009FE4F7 /* ContiCodeTestTests.xctest */,
+				259E6A861DBCDE77009FE4F7 /* ContinentalMacTest.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -98,6 +118,18 @@
 				259E6A7B1DBCD56F009FE4F7 /* Info.plist */,
 			);
 			path = ContiCodeTestTests;
+			sourceTree = "<group>";
+		};
+		259E6A871DBCDE77009FE4F7 /* ContinentalMacTest */ = {
+			isa = PBXGroup;
+			children = (
+				259E6A881DBCDE77009FE4F7 /* AppDelegate.swift */,
+				259E6A8A1DBCDE77009FE4F7 /* ViewController.swift */,
+				259E6A8C1DBCDE77009FE4F7 /* Assets.xcassets */,
+				259E6A8E1DBCDE77009FE4F7 /* Main.storyboard */,
+				259E6A911DBCDE77009FE4F7 /* Info.plist */,
+			);
+			path = ContinentalMacTest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +170,23 @@
 			productReference = 259E6A771DBCD56F009FE4F7 /* ContiCodeTestTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		259E6A851DBCDE77009FE4F7 /* ContinentalMacTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 259E6A941DBCDE77009FE4F7 /* Build configuration list for PBXNativeTarget "ContinentalMacTest" */;
+			buildPhases = (
+				259E6A821DBCDE77009FE4F7 /* Sources */,
+				259E6A831DBCDE77009FE4F7 /* Frameworks */,
+				259E6A841DBCDE77009FE4F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ContinentalMacTest;
+			productName = ContinentalMacTest;
+			productReference = 259E6A861DBCDE77009FE4F7 /* ContinentalMacTest.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -157,6 +206,10 @@
 						ProvisioningStyle = Automatic;
 						TestTargetID = 259E6A5B1DBCB140009FE4F7;
 					};
+					259E6A851DBCDE77009FE4F7 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = 259E6A571DBCB140009FE4F7 /* Build configuration list for PBXProject "ContiCodeTest" */;
@@ -174,6 +227,7 @@
 			targets = (
 				259E6A5B1DBCB140009FE4F7 /* ContiCodeTest */,
 				259E6A761DBCD56F009FE4F7 /* ContiCodeTestTests */,
+				259E6A851DBCDE77009FE4F7 /* ContinentalMacTest */,
 			);
 		};
 /* End PBXProject section */
@@ -196,6 +250,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		259E6A841DBCDE77009FE4F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				259E6A8D1DBCDE77009FE4F7 /* Assets.xcassets in Resources */,
+				259E6A901DBCDE77009FE4F7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -215,6 +278,16 @@
 			files = (
 				259E6A7A1DBCD56F009FE4F7 /* ContiCodeTestTests.swift in Sources */,
 				259E6A811DBCD6CD009FE4F7 /* ContinentalFilenameParser.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		259E6A821DBCDE77009FE4F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				259E6A951DBCE2CC009FE4F7 /* ContinentalFilenameParser.swift in Sources */,
+				259E6A8B1DBCDE77009FE4F7 /* ViewController.swift in Sources */,
+				259E6A891DBCDE77009FE4F7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,6 +316,14 @@
 				259E6A691DBCB140009FE4F7 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		259E6A8E1DBCDE77009FE4F7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				259E6A8F1DBCDE77009FE4F7 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -391,6 +472,38 @@
 			};
 			name = Release;
 		};
+		259E6A921DBCDE77009FE4F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ContinentalMacTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myke.continental.ContinentalMacTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		259E6A931DBCDE77009FE4F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ContinentalMacTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myke.continental.ContinentalMacTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -410,12 +523,22 @@
 				259E6A701DBCB140009FE4F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		259E6A7E1DBCD56F009FE4F7 /* Build configuration list for PBXNativeTarget "ContiCodeTestTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				259E6A7F1DBCD56F009FE4F7 /* Debug */,
 				259E6A801DBCD56F009FE4F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		259E6A941DBCDE77009FE4F7 /* Build configuration list for PBXNativeTarget "ContinentalMacTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				259E6A921DBCDE77009FE4F7 /* Debug */,
+				259E6A931DBCDE77009FE4F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

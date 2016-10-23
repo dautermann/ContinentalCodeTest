@@ -47,4 +47,14 @@ class ContiCodeTestTests: XCTestCase {
         ContinentalFilenameParser.parseThisFilename(inputFilename: "duplicate_cat_car_dog.txt", closure: outputClosure)
     }
     
+    func testFilenameWithBogusComponents() {
+        
+        let outputClosure = { (outputDictDescription : String) -> () in
+            
+            XCTFail("bogus components in the filename should never save")
+        }
+
+        ContinentalFilenameParser.parseThisFilename(inputFilename: "backslash_/_colon_:", closure: outputClosure)
+        
+    }
 }
