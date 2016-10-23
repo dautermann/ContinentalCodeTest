@@ -25,7 +25,7 @@ class ContinentalFilenameParser {
         }
 
         // split the filename into an array based on the _ underscore
-        let wordArray = fileNameToParse.characters.split(separator: "_").map(String.init)
+        let wordArray = fileNameToParse.components(separatedBy: "_")
         
         // okay, so this part was fuzzy in your coding challenge description.
         //

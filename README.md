@@ -40,7 +40,13 @@ The assignment:
 >Bonus Points: for unit testing, UI/UX functionality, and responsiveness, code readability, comments, and dealing with edge cases that you see. 
 
 
+Demonstrates how to do filename parsing the Continental way!
+
 As Xcode 8 only came out a couple months prior to me doing this sample code, I decided to do this entirely in Swift 3 to see how it would go.
 
-This implementation was a bit more time consuming for me than how it would have been with Swift 1 - 2 and Objective-C, but I suspect as I get more fluent with the latest version of Swift I'll get faster.  This was my opportunity to do some public work with Closures (i.e. update the UI after parsing the text field) and a bit of unit testing.  
+There are both iOS & Mac targets in this project.  The iOS target has tests attached to it.
+
+Doing this implementation was a bit more time consuming than how it would have been for me in Objective-C, primarily because Swift 3 syntax is somewhat different than Swift 1 & 2 and some things we take for granted in Objective-C (like passing an Integer index to substringToIndex:) don't exist in Swift.  But I definitely was happy to get the chance to have fun with closures (which update the UI after parsing the text field) and a bit of unit testing.
+
+I hope you like the results.
 
