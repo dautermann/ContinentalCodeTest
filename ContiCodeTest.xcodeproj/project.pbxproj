@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		259E6A601DBCB140009FE4F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259E6A5F1DBCB140009FE4F7 /* AppDelegate.swift */; };
+		259E6A621DBCB140009FE4F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259E6A611DBCB140009FE4F7 /* ViewController.swift */; };
+		259E6A651DBCB140009FE4F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 259E6A631DBCB140009FE4F7 /* Main.storyboard */; };
+		259E6A671DBCB140009FE4F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 259E6A661DBCB140009FE4F7 /* Assets.xcassets */; };
+		259E6A6A1DBCB140009FE4F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 259E6A681DBCB140009FE4F7 /* LaunchScreen.storyboard */; };
+		259E6A721DBCB53B009FE4F7 /* ContinentalFilenameParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259E6A711DBCB53B009FE4F7 /* ContinentalFilenameParser.swift */; };
+		259E6A7A1DBCD56F009FE4F7 /* ContiCodeTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259E6A791DBCD56F009FE4F7 /* ContiCodeTestTests.swift */; };
+		259E6A811DBCD6CD009FE4F7 /* ContinentalFilenameParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259E6A711DBCB53B009FE4F7 /* ContinentalFilenameParser.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		259E6A7C1DBCD56F009FE4F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 259E6A541DBCB140009FE4F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 259E6A5B1DBCB140009FE4F7;
+			remoteInfo = ContiCodeTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		259E6A5C1DBCB140009FE4F7 /* ContiCodeTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContiCodeTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		259E6A5F1DBCB140009FE4F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		259E6A611DBCB140009FE4F7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		259E6A641DBCB140009FE4F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		259E6A661DBCB140009FE4F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		259E6A691DBCB140009FE4F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		259E6A6B1DBCB140009FE4F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		259E6A711DBCB53B009FE4F7 /* ContinentalFilenameParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContinentalFilenameParser.swift; sourceTree = "<group>"; };
+		259E6A771DBCD56F009FE4F7 /* ContiCodeTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContiCodeTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		259E6A791DBCD56F009FE4F7 /* ContiCodeTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContiCodeTestTests.swift; sourceTree = "<group>"; };
+		259E6A7B1DBCD56F009FE4F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		259E6A591DBCB140009FE4F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		259E6A741DBCD56F009FE4F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		259E6A531DBCB140009FE4F7 = {
+			isa = PBXGroup;
+			children = (
+				259E6A5E1DBCB140009FE4F7 /* ContiCodeTest */,
+				259E6A781DBCD56F009FE4F7 /* ContiCodeTestTests */,
+				259E6A5D1DBCB140009FE4F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		259E6A5D1DBCB140009FE4F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				259E6A5C1DBCB140009FE4F7 /* ContiCodeTest.app */,
+				259E6A771DBCD56F009FE4F7 /* ContiCodeTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		259E6A5E1DBCB140009FE4F7 /* ContiCodeTest */ = {
+			isa = PBXGroup;
+			children = (
+				259E6A5F1DBCB140009FE4F7 /* AppDelegate.swift */,
+				259E6A611DBCB140009FE4F7 /* ViewController.swift */,
+				259E6A631DBCB140009FE4F7 /* Main.storyboard */,
+				259E6A711DBCB53B009FE4F7 /* ContinentalFilenameParser.swift */,
+				259E6A661DBCB140009FE4F7 /* Assets.xcassets */,
+				259E6A681DBCB140009FE4F7 /* LaunchScreen.storyboard */,
+				259E6A6B1DBCB140009FE4F7 /* Info.plist */,
+			);
+			path = ContiCodeTest;
+			sourceTree = "<group>";
+		};
+		259E6A781DBCD56F009FE4F7 /* ContiCodeTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				259E6A791DBCD56F009FE4F7 /* ContiCodeTestTests.swift */,
+				259E6A7B1DBCD56F009FE4F7 /* Info.plist */,
+			);
+			path = ContiCodeTestTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		259E6A5B1DBCB140009FE4F7 /* ContiCodeTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 259E6A6E1DBCB140009FE4F7 /* Build configuration list for PBXNativeTarget "ContiCodeTest" */;
+			buildPhases = (
+				259E6A581DBCB140009FE4F7 /* Sources */,
+				259E6A591DBCB140009FE4F7 /* Frameworks */,
+				259E6A5A1DBCB140009FE4F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ContiCodeTest;
+			productName = ContiCodeTest;
+			productReference = 259E6A5C1DBCB140009FE4F7 /* ContiCodeTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		259E6A761DBCD56F009FE4F7 /* ContiCodeTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 259E6A7E1DBCD56F009FE4F7 /* Build configuration list for PBXNativeTarget "ContiCodeTestTests" */;
+			buildPhases = (
+				259E6A731DBCD56F009FE4F7 /* Sources */,
+				259E6A741DBCD56F009FE4F7 /* Frameworks */,
+				259E6A751DBCD56F009FE4F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				259E6A7D1DBCD56F009FE4F7 /* PBXTargetDependency */,
+			);
+			name = ContiCodeTestTests;
+			productName = ContiCodeTestTests;
+			productReference = 259E6A771DBCD56F009FE4F7 /* ContiCodeTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		259E6A541DBCB140009FE4F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Michael Dautermann";
+				TargetAttributes = {
+					259E6A5B1DBCB140009FE4F7 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					259E6A761DBCD56F009FE4F7 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 259E6A5B1DBCB140009FE4F7;
+					};
+				};
+			};
+			buildConfigurationList = 259E6A571DBCB140009FE4F7 /* Build configuration list for PBXProject "ContiCodeTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 259E6A531DBCB140009FE4F7;
+			productRefGroup = 259E6A5D1DBCB140009FE4F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				259E6A5B1DBCB140009FE4F7 /* ContiCodeTest */,
+				259E6A761DBCD56F009FE4F7 /* ContiCodeTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		259E6A5A1DBCB140009FE4F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				259E6A6A1DBCB140009FE4F7 /* LaunchScreen.storyboard in Resources */,
+				259E6A671DBCB140009FE4F7 /* Assets.xcassets in Resources */,
+				259E6A651DBCB140009FE4F7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		259E6A751DBCD56F009FE4F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		259E6A581DBCB140009FE4F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				259E6A721DBCB53B009FE4F7 /* ContinentalFilenameParser.swift in Sources */,
+				259E6A621DBCB140009FE4F7 /* ViewController.swift in Sources */,
+				259E6A601DBCB140009FE4F7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		259E6A731DBCD56F009FE4F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				259E6A7A1DBCD56F009FE4F7 /* ContiCodeTestTests.swift in Sources */,
+				259E6A811DBCD6CD009FE4F7 /* ContinentalFilenameParser.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		259E6A7D1DBCD56F009FE4F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 259E6A5B1DBCB140009FE4F7 /* ContiCodeTest */;
+			targetProxy = 259E6A7C1DBCD56F009FE4F7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		259E6A631DBCB140009FE4F7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				259E6A641DBCB140009FE4F7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		259E6A681DBCB140009FE4F7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				259E6A691DBCB140009FE4F7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		259E6A6C1DBCB140009FE4F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		259E6A6D1DBCB140009FE4F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		259E6A6F1DBCB140009FE4F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ContiCodeTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.myke.continental.ContiCodeTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		259E6A701DBCB140009FE4F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ContiCodeTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.myke.continental.ContiCodeTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		259E6A7F1DBCD56F009FE4F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ContiCodeTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.myke.continental.ContiCodeTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ContiCodeTest.app/ContiCodeTest";
+			};
+			name = Debug;
+		};
+		259E6A801DBCD56F009FE4F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ContiCodeTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.myke.continental.ContiCodeTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ContiCodeTest.app/ContiCodeTest";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		259E6A571DBCB140009FE4F7 /* Build configuration list for PBXProject "ContiCodeTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				259E6A6C1DBCB140009FE4F7 /* Debug */,
+				259E6A6D1DBCB140009FE4F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		259E6A6E1DBCB140009FE4F7 /* Build configuration list for PBXNativeTarget "ContiCodeTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				259E6A6F1DBCB140009FE4F7 /* Debug */,
+				259E6A701DBCB140009FE4F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		259E6A7E1DBCD56F009FE4F7 /* Build configuration list for PBXNativeTarget "ContiCodeTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				259E6A7F1DBCD56F009FE4F7 /* Debug */,
+				259E6A801DBCD56F009FE4F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 259E6A541DBCB140009FE4F7 /* Project object */;
+}
