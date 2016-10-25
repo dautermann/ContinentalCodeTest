@@ -1,4 +1,4 @@
-# ContinentalCodeTest
+# Continental File Name Parsing
 The assignment:
 
 >Given the following filename:  conti_cat_plane_swift.txt
